@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testing | Hull.js</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<REPLACE_UAID>"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  
+        gtag('config', '<REPLACE_UAID>');
+      </script>
+</head>
+<body>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+          <div class="inner">
+            <h3 class="masthead-brand">Hull.js</h3>
+            <nav class="nav nav-masthead justify-content-center">
+              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link" href="./pricing.html">Pricing</a>
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </nav>
+          </div>
+        </header>
+      
+        <main role="main" class="inner cover">
+          <h1 class="cover-heading">Track your page.</h1>
+          <p class="lead">Hull.js is a tracking library for your website. All you need is to install a little JS snippet on your site to track your visitors. Works also with GTM.</p>
+          <p class="lead">
+            <a href="/pricing.html" class="btn btn-lg btn-secondary">Pricing</a>
+          </p>
+        </main>
+      
+        <footer class="mastfoot mt-auto">
+          <div class="inner">
+            <p>Demo and test for <a href="https://hull.io/">Hull</a>, by <a href="https://twitter.com/svenmaschek">@svenmaschek</a>.</p>
+          </div>
+        </footer>
+      </div>
+      
+      <script id="hull-js-sdk"
+        data-platform-id="<PLATFORM_ID>"
+        data-org-url="https://<ORGNS>.hullapp.io"
+        async defer 
+        src='https://js.hull.io/0.10.0/hull.debug.js.gz'
+      ></script>
+      <script  src="./tracking.js"></script>
+</body>
+</html>
